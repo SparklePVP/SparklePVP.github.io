@@ -1,0 +1,31 @@
+body {
+  background: url("http://www.cottontreemeats.com.au/wp-content/uploads/2016/10/steak-1.jpg");
+  margin: 0;
+}
+
+.nav {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav ul {
+  list-style: none;
+  display: block;
+  padding: 16px 18px;
+}
+
+.nav ul li {
+  float: left;
+  margin: 0 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(245,255,250);
+  font-size: 20px;
+}
+
+.nav li a:hover {
+  color: rgb(219, 168, 213);
+  font-size: 25px;
+}
