@@ -1,6 +1,7 @@
 body {
-  background: url("http://www.cottontreemeats.com.au/wp-content/uploads/2016/10/steak-1.jpg");
-  margin: 0;
+  background: url("https://sparklepvp.github.io/restaurant/images/background%20thing.jpg") no-repeat center center fixed;
+  margin: 16px;
+  background-size: cover;
 }
 
 .nav {
@@ -11,21 +12,57 @@ body {
 .nav ul {
   list-style: none;
   display: block;
-  padding: 16px 18px;
+  padding: 50px 40px;
 }
 
 .nav ul li {
   float: left;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .nav ul li a {
   text-decoration: none;
-  color: rgb(245,255,250);
-  font-size: 20px;
+  color: rgb(255, 250, 250);
+  font-size: 16px;
 }
 
 .nav li a:hover {
-  color: rgb(219, 168, 213);
+  color: rgb(255, 250, 250);
   font-size: 25px;
+}
+
+.name li {
+  text-decoration: none;
+  color: rgb(255, 250, 250);
+  font-size: 16px;
+  font-family: Droid Sans;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #ffffff;
+  margin: 1;
+}
+
+#logo {
+  float: left;
+  width: 90px;
+  height: 70px;
+}
+
+.head h1 {
+  postion: center;
+}
+
+#white img {
+  background-size: center;
+  width: 100%;
+  height: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  right: 5%;
 }
