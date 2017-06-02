@@ -29,7 +29,7 @@
 </div>
 <div style="padding-bottom: 18px;font-size : 21px;">Table Reservation</div>
 <div style="padding-bottom: 18px;font-size : 16px;">We would be glad to reserve a table for you at our restaurant!</div>
-<div style="padding-bottom: 18px;">Name<span style="color: red;"> *</span><br/>
+<div style="padding-bottom: 18px;">Name<br/>
 <input type="text" id="data_3" name="data_3" style="width : 350px;" class="form-control"/>
 </div>
 <div style="padding-bottom: 18px;">Phone<br/>
@@ -38,16 +38,16 @@
 <div style="padding-bottom: 18px;">Email<br/>
 <input type="text" id="data_10" name="data_10" style="width : 350px;" class="form-control"/>
 </div>
-<div style="padding-bottom: 18px;">Date<span style="color: red;"> *</span><br/>
+<div style="padding-bottom: 18px;">Date<br/>
 <input type="text" id="data_11" name="data_11" style="width : 200px;" class="form-control"/>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">new Pikaday({ field: document.getElementById('data_11') });</script>
-<div style="padding-bottom: 18px;">Time<span style="color: red;"> *</span><br/>
+<div style="padding-bottom: 18px;">Time<br/>
 <input type="text" id="data_7" name="data_7" style="width : 200px;" class="form-control"/>
 </div>
-<div style="padding-bottom: 18px;">Number of people<span style="color: red;"> *</span><br/>
+<div style="padding-bottom: 18px;">Number of people<br/>
 <select id="data_8" name="data_8" style="width : 200px;" class="form-control"><option>1</option>
 <option>2</option>
 <option>3</option>
@@ -63,32 +63,7 @@
 <div style="padding-bottom: 18px;"><input name="skip_Submit" value="Submit" type="submit"/></div>
 
 		
-		<script type="text/javascript">
-function validateForm() {
-if (isEmpty(document.getElementById('data_3').value.trim())) {
-alert('Name is required!');
-return false;
-}
-if (!validateEmail(document.getElementById('data_10').value.trim())) {
-alert('Email must be a valid email address!');
-return false;
-}
-if (isEmpty(document.getElementById('data_11').value.trim())) {
-alert('Date is required!');
-return false;
-}
-if (isEmpty(document.getElementById('data_7').value.trim())) {
-alert('Time is required!');
-return false;
-}
-return true;
-}
-function isEmpty(str) { return (str.length === 0 || !str.trim()); }
-function validateEmail(email) {
-var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
-return isEmpty(email) || re.test(email);
-}
-</script>
+		
 		</div>
 
 </body>
