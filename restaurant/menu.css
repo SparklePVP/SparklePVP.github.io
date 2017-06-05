@@ -48,15 +48,6 @@ hr {
   float: left;
 }
 
-.head {
-  width: 100%;
-  height: 600px;
-  position: relative;
-  background: url('https://sparklepvp.github.io/restaurant/images/Menu%20background1.jpg') no-repeat;
-  background-size: cover;
-  overflow: hidden;
-}
-
 .head #name {
   text-align: center;
   margin-top: 120px;
@@ -73,10 +64,17 @@ hr {
   text-shadow: 2px 3px lightgrey;
 }
 
-.head #white p {
-  padding: 50px;
+.head #white h1 {
+  padding: 50px 50px;
   margin-left: 90px;
+  margin-right: 90px;
   width: 100%;
-  height: 800px;
+  height: 1000px;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.img1, .img2, .img3, .img4, .img5 {
+  width: 250px;
+  height: 170px;
 }
