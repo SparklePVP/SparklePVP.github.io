@@ -62,7 +62,6 @@ hr {
   letter-spacing: -5px;
   padding: 0;
   text-shadow: 2px 3px lightgrey;
-  font-family: Raleway;
 }
 
 .head #white h1 {
@@ -72,6 +71,7 @@ hr {
   height: 1120px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    font-family: Raleway;
 }
 
 .img1, .img2, .img3, .img4, .img5 {
