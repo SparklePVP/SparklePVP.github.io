@@ -2,68 +2,85 @@
 <html>
   <head>
     <title>Get Roasted</title>
-		<link rel="shortcut icon" href="/title%20logo.png" type="image/png">
-		<link rel="shortcut icon" type="image/png" href="https://sparklepvp.github.io/restaurant/images/title%20logo.png" />
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
-	   <link type="text/css" rel="stylesheet" href="reservation.css" />
-	</head>
-<body>
-  <header>
-    <div class="nav">
-      <ul>
-        <div class="logo">
-          <img src="https://sparklepvp.github.io/restaurant/images/LOGO.png" id="logo" />
-        </div> 
-	      <hr>
-        <li><a href="https://sparklepvp.github.io/restaurant/index.html">Home</a></li>
-        <li><a href="https://sparklepvp.github.io/restaurant/menu.html">Menu</a></li>
-        <li><a href="https://sparklepvp.github.io/restaurant/reservation.html">Reservation</a></li>
-        <li><a href="https://sparklepvp.github.io/restaurant/location.html">Location</a></li>
-        <li style="float:right"><a href="https://sparklepvp.github.io/restaurant/about.html">About</a></li>
-      </ul>
+    <link rel="shortcut icon" href="/title%20logo.png" type="image/png" />
+    <link rel="shortcut icon" type="image/png" href="https://sparklepvp.github.io/restaurant/images/title%20logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="reservation.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <ul>
+          <li style="list-style: none; display: inline">
+            <div class="logo">
+              <img src="https://sparklepvp.github.io/restaurant/images/LOGO.png" id="logo" />
+            </div>
+            <hr />
+          </li>
+          <li>
+            <a href="https://sparklepvp.github.io/restaurant/index.html">Home</a>
+          </li>
+          <li>
+            <a href="https://sparklepvp.github.io/restaurant/menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="https://sparklepvp.github.io/restaurant/reservation.html">Reservation</a>
+          </li>
+          <li>
+            <a href="https://sparklepvp.github.io/restaurant/location.html">Location</a>
+          </li>
+          <li style="float:right">
+            <a href="https://sparklepvp.github.io/restaurant/about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <div class="pic">
+      <div class="res" style="color: white;">
+        <div style="padding-bottom: 18px;font-size : 21px;">Table Reservation</div>
+        <div style="padding-bottom: 18px;font-size : 16px;">We would be glad to reserve a table for you at our restaurant!</div>
+        <div style="padding-bottom: 18px;">Name
+        <br />
+        <input type="text" id="data_3" name="data_3" style="width : 350px;" class="form-control" /></div>
+        <div style="padding-bottom: 18px;">Phone
+        <br />
+        <input type="text" id="data_4" name="data_4" style="width : 350px;" class="form-control" /></div>
+        <div style="padding-bottom: 18px;">Email
+        <br />
+        <input type="text" id="data_10" name="data_10" style="width : 350px;" class="form-control" /></div>
+        <div style="padding-bottom: 18px;">Date
+        <br />
+        <input type="text" id="data_11" name="data_11" style="width : 200px;" class="form-control" /></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript">
+new Pikaday({ field: document.getElementById(&#39;data_11&#39;) });
+</script>
+        <div style="padding-bottom: 18px;">Time
+        <br />
+        <input type="text" id="data_7" name="data_7" style="width : 200px;" class="form-control" /></div>
+        <div style="padding-bottom: 18px;">Number of people
+        <br />
+        <select id="data_8" name="data_8" style="width : 200px;" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+          <option>10+</option>
+        </select></div>
+        <div style="padding-bottom: 18px;">
+          <a href="https://sparklepvp.github.io/restaurant/thx.html">
+            <input type="submit" value="Submit" />
+          </a>
+        </div>
+      </div>
     </div>
-  </header>
-	<div class="res">
-
-
-<div style="padding-bottom: 18px;font-size : 21px;">Table Reservation</div>
-<div style="padding-bottom: 18px;font-size : 16px;">We would be glad to reserve a table for you at our restaurant!</div>
-<div style="padding-bottom: 18px;">Name<br/>
-<input type="text" id="data_3" name="data_3" style="width : 350px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Phone<br/>
-<input type="text" id="data_4" name="data_4" style="width : 350px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Email<br/>
-<input type="text" id="data_10" name="data_10" style="width : 350px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Date<br/>
-<input type="text" id="data_11" name="data_11" style="width : 200px;" class="form-control"/>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/pikaday.min.js" type="text/javascript"></script>
-<link href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.4.0/css/pikaday.min.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript">new Pikaday({ field: document.getElementById('data_11') });</script>
-<div style="padding-bottom: 18px;">Time<br/>
-<input type="text" id="data_7" name="data_7" style="width : 200px;" class="form-control"/>
-</div>
-<div style="padding-bottom: 18px;">Number of people<br/>
-<select id="data_8" name="data_8" style="width : 200px;" class="form-control"><option>1</option>
-<option>2</option>
-<option>3</option>
-<option>4</option>
-<option>5</option>
-<option>6</option>
-<option>7</option>
-<option>8</option>
-<option>9</option>
-<option>10+</option>
-</select>
-</div>
-<div style="padding-bottom: 18px;"><a href="https://sparklepvp.github.io/restaurant/thx.html"><input type="submit" value="Submit"></a>
-		</div>
-		</div>
-
-</body>
+  </body>
 </html>
