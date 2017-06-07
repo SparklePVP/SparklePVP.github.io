@@ -37,7 +37,7 @@ body {
   font-family: Droid Sans;
 }
 
-hr {
+.nav hr {
   border: none;
   border-top: 1px solid #aaaaaa;
   border-bottom: 1px solid #ffffff;
