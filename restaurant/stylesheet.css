@@ -49,6 +49,7 @@ body {
 }
 
 .head {
+  margin-top: 50px;
   width: 100%;
   height: 800px;
   position: relative;
