@@ -53,7 +53,7 @@ hr {
   margin-top: 120px;
 }
 
-.head #name p {
+.head #name h1 {
   color: rgb(255, 255, 255);
   font-family: 'work', cursive;
   font-size: 125px;
@@ -64,7 +64,7 @@ hr {
   text-shadow: 2px 3px lightgrey;
 }
 
-.head #white p {
+.head #white h1 {
   padding: 10px;
   margin: 100px;
   width: 960px;
