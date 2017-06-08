@@ -106,4 +106,7 @@ body {
   top: 70px;
   left: 100px;	
 }
+.table table {
+position: relative;
+}
 
