@@ -74,3 +74,19 @@ body {
   font-weight: normal;
   text-shadow: 2px 3px lightgrey;
 }
+
+.table #white p {
+  padding: 10px;
+  margin: 100px;
+  width: 960px;
+  height: 1120px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  font-family: 'Raleway', sans-serif;
+}
+
+.table .img1, .img2, .img3, .img4, .img5 {
+  width: 250px;
+  height: 170px;
+}
+
