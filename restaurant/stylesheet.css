@@ -76,7 +76,7 @@ body {
 }
 
 .table #white h1 {
-  position: relative;
+  position: absolute;
   padding: 10px;
   margin: 100px;
   width: 960px;
