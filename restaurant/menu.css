@@ -48,22 +48,6 @@ hr {
   float: left;
 }
 
-.head #name {
-  text-align: center;
-  margin-top: 120px;
-}
-
-.head #name h1 {
-  color: rgb(255, 255, 255);
-  font-family: 'work', cursive;
-  font-size: 125px;
-  margin: 0;
-  font-weight: normal;
-  letter-spacing: -5px;
-  padding: 0;
-  text-shadow: 2px 3px lightgrey;
-}
-
 .head #white p {
   padding: 10px;
   margin: 100px;
