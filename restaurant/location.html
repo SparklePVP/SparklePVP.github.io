@@ -36,10 +36,23 @@
       </div>
     </header>
     <section class="head">
-      <div id="name">
-        <h1>GET
-        <br />ROASTED</h1>
-      </div>
+<h1>Location</h1>
+<div id="map"></div>
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
+
+function initMap() {
+  var uluru = {lat: 34.024212, lng: -118.496475};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: uluru
+  });
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map
+  });
+}
+</script>
     </section>
   </body>
 </html>
