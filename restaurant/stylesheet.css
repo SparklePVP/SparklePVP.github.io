@@ -108,7 +108,7 @@ body {
 }
 .table table {
   position: relative;
-  bottom: 100px;
+  bottom: 0px;
 }
 
 div.stars {
