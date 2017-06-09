@@ -39,9 +39,7 @@
       <div class="map">
 <h1 style="font-family: 'Raleway', sans-serif;">Location</h1>
 <div id="map"></div>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
-
+  <script>
 function initMap() {
   var uluru = {lat: 34.024212, lng: -118.496475};
   var map = new google.maps.Map(document.getElementById('map'), {
@@ -53,6 +51,9 @@ function initMap() {
     map: map
   });
 }
+   </script>    
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk&callback=initMap">
 </script>
       </div>
          </center>
