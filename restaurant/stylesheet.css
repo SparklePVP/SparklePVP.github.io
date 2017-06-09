@@ -152,3 +152,7 @@ label.star:before {
   font-family: FontAwesome;
 }
 
+#map {
+  height: 400px;
+  width: 100%;
+ }
