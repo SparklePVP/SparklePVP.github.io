@@ -1,0 +1,245 @@
+<body>
+  <div class="picture">
+    <div id="moon">
+    </div>
+    <div class="house">
+    <div class="rainbow">
+   <div id="rain"> </div>
+   </div>
+  
+
+      <div id="triangle">
+      </div>
+      <div id="square">
+      </div>
+      <div id="rectangle">
+      </div>
+      <div id="square1">
+      </div>
+      <div id="square2">
+      </div>
+    </div>
+    <div id="floor">
+    </div>
+    
+    <div id= "canvas">
+        <div id= "toprow">
+            <div id= "bigbox" class= "red right"></div>
+            <div id= "divider1" class= "black right"></div>
+            <div id= "topleftcolumn" class= "right">
+                <div id= "mediumbox"></div>
+                <div id= "divider2" class= "black"></div>
+                <div id= "mediumbox"></div>
+            </div>
+        </div>
+        <div id= "middlerow" class= "black"></div>
+        <div id= "bottomrow">
+            <div id= "bottomrightcolumn" class= "right">
+                <div id= "tinybox"></div>
+                <div id= "divider4" class= "black"></div>
+                <div id= "tinybox" class= "yellow"></div>
+            </div>
+            <div id= "divider3" class= "black right"> </div>
+            <div id= "widebox" class= "right"> </div>
+            <div id= "divider3"class= "black right"> </div>
+            <div id= "smallbox"class= "blue right"> </div>
+        </div>
+    </div>
+
+
+  </div>
+</body>
+<style>
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid red;
+}
+
+#square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+#rectangle {
+  position: relative;
+  top: 80px;
+  left: 45px;
+  width: 10px;
+  height: 20px;
+  background: black;
+}
+
+#square1 {
+  left: 4%;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: black;
+}
+
+#square2 {
+  top: 10%;
+  left: 12.5%;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: black;
+}
+
+#moon {
+  position: relative;
+  left: 90%;
+  width: 300px;
+  height: 300px;
+  border-radius: 90%;
+  box-shadow: 30px 30px 0 0 black;
+  bottom: 350px;
+}
+
+#floor {
+  top: 60px;
+  position: relative;
+  width: 900px;
+  height: 200px;
+  background: lightgreen;
+}
+
+.house {
+  left: 30%;
+  position: relative;
+}
+
+.picture {
+  position: relative;
+  top: 400px;
+}
+
+#rain {
+  top: 150px;
+  left: 400px;
+  position: relative;
+  width: 600px;
+  height: 150px;
+  background: white;
+  overflow: hidden;
+  transform: scale(2);
+  margin-left: 130px;
+  margin-top: -50px;
+}
+#rain:after {
+  position: absolute;
+  content: '';
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 50px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #4200AB, 0 0 0 10px #000095, 0 0 0 15px #00ABFF, 0 0 0 20px #00C800, 0 0 0 25px #FFF800, 0 0 0 30px #FF7642, 0 0 0 35px #E40000;
+}
+
+
+body, html {
+    background-color: #f6f6f6;
+}
+
+#canvas {
+    background-color: #fff4db;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 1px #8d8d8d;
+}
+
+#toprow {
+    height: 290px;
+}
+
+#middlerow {
+    height: 10px;
+}
+
+#bottomrow {
+    height: 100px;
+}
+
+#lefttopcolumn {
+    width: 100px;
+}
+
+#bottomrightcolumn{
+    width: 20px;
+}
+
+#bigbox {
+    height: 290px;
+    width: 290px;
+}
+
+#mediumbox {
+    width: 100px;
+    height: 140px;
+}
+
+#smallbox {
+    width: 100px;
+    height: 100px;
+}
+
+#widebox {
+    width: 260px;
+    height: 100px;
+}
+
+#tinybox {
+    width: 20px;
+    height: 45px;
+}
+
+#divider1 {
+    height: 290px;
+    width: 10px;
+}
+
+#divider2 {
+    height: 10px;
+    width: 100px;
+}
+
+#divider3 {
+    height: 100px;
+    width: 10px;
+}
+
+#divider4 {
+    height: 10px;
+    width: 20px;
+}
+
+.red {
+    background-color: #cc3333;   
+}
+
+.blue {
+    background-color: #2f7fd8;   
+}
+
+.yellow {
+    background-color: #feda09;   
+}
+
+.black {
+    background-color: #393939;   
+}
+
+.right {
+    float: right;   
+}
+
+</style>
