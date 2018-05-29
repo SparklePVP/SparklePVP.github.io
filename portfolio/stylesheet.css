@@ -28,3 +28,8 @@ body {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
+
+#home {
+width: 100px;
+height: 100px;
+}
