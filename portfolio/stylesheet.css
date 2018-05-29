@@ -28,3 +28,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 25px;
 }
+#logo1 {
+  width: 100px;
+  height: 100px;
+}
