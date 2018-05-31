@@ -30,6 +30,7 @@ body {
 }
 
 #home {
+float: left;
 width: 10%;
 height: 10%;
 }
