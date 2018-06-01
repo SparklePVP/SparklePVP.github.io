@@ -38,3 +38,9 @@ body, html {
   font-size: 25px;
 }
 
+#home {
+padding: 50px 40px;
+float: left;
+width: 10%;
+height: 10%;
+}
