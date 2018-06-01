@@ -1,12 +1,13 @@
-body {
+body, html {
   background-color: #1e1d1d;
+  height: 100%;
 }
 #top .bg{
   background-image: url("https://sparklepvp.github.io/portfolio/image/Background.png");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav {
