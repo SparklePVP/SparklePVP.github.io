@@ -3,6 +3,7 @@ body {
 }
 #top{
   background-image: url("https://sparklepvp.github.io/portfolio/image/Background.png");
+  background-repeat:no-repeat;
 }
 
 .nav {
