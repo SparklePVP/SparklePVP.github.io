@@ -1,7 +1,7 @@
 body {
   background-color: #1e1d1d;
 }
-#top{
+.bg{
   background-image: url("https://sparklepvp.github.io/portfolio/image/Background.png");
   background-repeat:no-repeat;
     height: 100%; 
