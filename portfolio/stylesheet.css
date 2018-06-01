@@ -38,7 +38,7 @@ body, html {
   font-size: 25px;
 }
 
-#home {
+.home {
 padding: 50px 40px;
 float: left;
 width: 10%;
