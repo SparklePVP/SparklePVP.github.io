@@ -62,7 +62,7 @@ body, html {
   font-size: 100px;
   font-family: Droid Sans;
 }
-h1 {
+.h1 {
   position: relative;
   text-align: center;
   text-decoration: none;
