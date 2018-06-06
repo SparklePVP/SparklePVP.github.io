@@ -48,7 +48,7 @@ body, html {
 }
 
 .home {
-  position: relative;
+  position: absolute;
   top: 1px;
   float: left;
   width: 8%;
