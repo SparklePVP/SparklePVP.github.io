@@ -1,0 +1,304 @@
+body, html {
+  background-color: #1e1d1d;
+  height: 100%;  
+  margin: 0 auto;
+  position: relative;
+} 
+
+.bg {
+  background-image: url("https://sparklepvp.github.io/portfolio/image/Background.png");
+  height: 100%;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
+
+.nav {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.nav ul {
+  list-style: none;
+  display: block;
+  padding: 100px 50px;
+}
+
+.nav ul li {
+  float: left;
+  bottom: 50px;
+  margin: 0 15px;
+  position: relative;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+.nav li a:hover {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  
+}
+
+.home {
+  position: relative;
+  top: 1px;
+  float: left;
+  width: 8%;
+  height: 8%;
+}
+.title {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  font-family: Droid Sans;
+}
+#mid {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Droid Sans;
+}
+h1{
+	padding: 50px;
+}
+h2 {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Droid Sans;
+  margin: -10px auto;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+    display: none;
+}
+.images {
+	width: 100%;
+	height: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #111111;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #fdfbfb;
+}
+p{
+  position: relative;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-family: Comic Sans MS;   
+}
+.typewriter{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 44em;}
+}
+
+.typewriter1{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay: 5s;
+}
+@keyframes typewriter1{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter2{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:9s;
+}
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 44em;}
+}
+
+h3 {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: Droid Sans;
+  margin: -10px auto;
+  padding-top: 200px;
+}
+
+.web1 {
+	position: relative;
+	padding-top: 60px;	
+	width: 80%;
+	height: auto;
+	margin: auto;
+	width: 80%;
+    text-align: center;
+}
+.pg{
+	font-size: 20px;
+}
+#info{
+	padding: 10%;
+}
+#ill{
+	padding-bottom: 100px;
+}
+#site{
+	background: #1e1d1d;
+	
+}
+#core{
+	padding-top: 300px;
+	padding-bottom: 300px;
+}
+h6 , h7 {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Droid Sans;
+}
+h6 {
+	padding-bottom: 10;
+	font-size: 30px;
+}
+h7{
+	font-size: 50px;
+	font-family: Droid Sans;
+	color: white;
+}
+h9{
+  font-size: 25px;
+}
+#p1{
+  padding-top: 500px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Droid Sans;
+  font-size: 15px;
+}
+.curtain {
+  margin: 0 auto;
+  width: 100%;
+  height: 900px;
+  overflow: hidden;
+}
+.curtain__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.curtain__wrapper input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0;
+  top: 10;
+  left: 10;
+}
+.curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--left {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.curtain__wrapper input[type=checkbox]:checked ~ div.curtain__panel--right {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+.curtain__panel {
+  display: flex;
+  align-items: center;
+  background: #1e1d1d;
+  color: #fff;
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 100%;
+  transition: all 1s ease-out;
+  z-index: 2;
+}
+.curtain__panel--left {
+  justify-content: flex-end;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+.curtain__panel--right {
+  justify-content: flex-start;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+}
+.curtain__content {
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+  height: 90%;
+}
+.curtain__content img {
+  width: 20%;
+}
