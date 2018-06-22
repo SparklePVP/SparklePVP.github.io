@@ -279,6 +279,7 @@ h9{
   height: 100%;
   transition: all 1s ease-out;
   z-index: 2;
+  fade: false;
 }
 .curtain__panel--left {
   justify-content: flex-end;
