@@ -48,7 +48,7 @@ li a {
 .nav2 a:hover:not(.active) {
   background-color: #111;
 }
-.active {
+.nav2 .active {
   background-color: #4CAF50;
 }
 
