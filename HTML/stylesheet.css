@@ -5,7 +5,16 @@ html {
   margin: 0 auto;
   position: relative;
 }
-
+.bg {
+  background-image: url("https://sparklepvp.github.io/HTML/Mash%20Potato.jpeg");
+  height: 100%;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 200px;
+}
 p {
   position: relative;
   margin: 0 auto;
