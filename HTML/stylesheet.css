@@ -1,0 +1,101 @@
+body,
+html {
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+p {
+  position: relative;
+  margin: 0 auto;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-family: Droid Sans;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav2 a:hover {
+  color: rgb(255, 255, 255);
+}
+.nav2 a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+.typewriter {
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 38em;
+  }
+}
+
+.typewriter1 {
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay: 5s;
+}
+
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 44em;
+  }
+}
+
+.typewriter2 {
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay: 9s;
+}
+
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 44em;
+  }
+}
+
+#info {
+  padding: 10%;
+}
