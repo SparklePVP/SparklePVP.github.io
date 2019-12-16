@@ -1,10 +1,4 @@
-body,
-html {
-  background-color: white;
-  height: 100%;
-  margin: 0 auto;
-  position: relative;
-}
+
 .bg {
   background-image: url("https://sparklepvp.github.io/HTML/Mash%20Potato.jpeg");
   height: 100%;
@@ -14,6 +8,12 @@ html {
   display: block;
   padding-top: 10px;
   padding-bottom: 200px;
+}
+body,html {
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 p {
   position: relative;
