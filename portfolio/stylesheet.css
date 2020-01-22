@@ -147,7 +147,7 @@ p{
   text-decoration: none;
   color: white;
   font-size: 15px;
-  font-family: Droid Sans;   
+  font-family: Comic Sans MS;   
 }
 .typewriter{
   animation: typewriter 6s steps(64) 1s 1 normal both;
@@ -159,7 +159,7 @@ p{
 
 .typewriter1{
   animation: typewriter 6s steps(64) 1s 1 normal both;
-  animation-delay: 5s;
+  animation-delay: 2s;
 }
 @keyframes typewriter1{
   from{width: 0;}
@@ -167,9 +167,49 @@ p{
 }
 .typewriter2{
   animation: typewriter 6s steps(64) 1s 1 normal both;
-  animation-delay:9s;
+  animation-delay:4s;
 }
 @keyframes typewriter2{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter3{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:6s;
+}
+@keyframes typewriter3{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter4{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:8s;
+}
+@keyframes typewriter4{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter5{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:9s;
+}
+@keyframes typewriter5{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter6{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:10s;
+}
+@keyframes typewriter6{
+  from{width: 0;}
+  to{width: 44em;}
+}
+.typewriter7{
+  animation: typewriter 6s steps(64) 1s 1 normal both;
+  animation-delay:11s;
+}
+@keyframes typewriter7{
   from{width: 0;}
   to{width: 44em;}
 }
@@ -186,13 +226,13 @@ h3 {
 }
 
 .web1 {
-  position: relative;
-  padding-top: 60px;	
-  width: 80%;
-  height: auto;
-  margin: auto;
-  width: 80%;
-  text-align: center;
+	position: relative;
+	padding-top: 60px;	
+	width: 80%;
+	height: auto;
+	margin: auto;
+	width: 80%;
+    text-align: center;
 }
 .pg{
 	font-size: 20px;
@@ -244,7 +284,6 @@ h9{
   width: 100%;
   height: 900px;
   overflow: hidden;
-  fade: false;
 }
 .curtain__wrapper {
   width: 100%;
@@ -279,7 +318,6 @@ h9{
   height: 100%;
   transition: all 1s ease-out;
   z-index: 2;
-  fade: false;
 }
 .curtain__panel--left {
   justify-content: flex-end;
@@ -300,7 +338,39 @@ h9{
   z-index: 1;
   width: 100%;
   height: 90%;
+    -webkit-animation: curtain .1s; 
+       -moz-animation: curtain .1s; 
+        -ms-animation: curtain .1s; 
+         -o-animation: curtain .1s; 
+            animation: curtain .1s;
 }
 .curtain__content img {
   width: 20%;
+}
+
+}
+
+@keyframes curtain {
+    from { opacity: 0; }
+    to   { opacity: 0; }
+}
+
+@-moz-keyframes curtain {
+    from { opacity: 0; }
+    to   { opacity: 0; }
+}
+
+@-webkit-keyframes curtain {
+    from { opacity: 0; }
+    to   { opacity: 0; }
+}
+
+@-ms-keyframes curtain {
+    from { opacity: 0; }
+    to   { opacity: 0; }
+}
+
+@-o-keyframes curtain {
+    from { opacity: 0; }
+    to   { opacity: 0; }
 }
